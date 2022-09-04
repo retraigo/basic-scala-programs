@@ -1,3 +1,5 @@
+// 9. Write a Scala program to replace a specified character with another character.
+
 import scala.io.StdIn.{readLine, readChar};
 import scala.collection.mutable.ArrayBuffer;
 object ReplaceString {

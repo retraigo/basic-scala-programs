@@ -1,3 +1,4 @@
+// 4. Write a Scala program to find the maximum and minimum value of an array of integers.
 import scala.io.StdIn.{readInt};
 import scala.collection.mutable.ArrayBuffer;
 object MinMaxArray {

@@ -1,3 +1,5 @@
+// 8. Write a Scala program to compare two strings lexicographically.
+
 import scala.io.StdIn.{readLine};
 import scala.collection.mutable.ArrayBuffer;
 object CompareStrings {

@@ -1,3 +1,4 @@
+// 1. Write a Scala program to sum values of a given array.
 import scala.io.StdIn.{readDouble};
 import scala.collection.mutable.ArrayBuffer;
 object SumArray {

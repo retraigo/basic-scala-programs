@@ -1,3 +1,5 @@
+// 10. Write a Scala program to get a substring of a given string between two specified positions.
+
 import scala.io.StdIn.{readLine, readInt};
 import scala.collection.mutable.ArrayBuffer;
 object SubString {

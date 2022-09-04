@@ -1,3 +1,4 @@
+// 6. Write a Scala program to print after removing duplicates from a given string. 
 import scala.io.StdIn.{readLine};
 object MissingNumberInArray {
   def main(args: Array[String]) = {

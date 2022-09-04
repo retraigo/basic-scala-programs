@@ -1,3 +1,4 @@
+// 7. Write a Scala program to reverse every word in a given string.
 import scala.io.StdIn.{readLine};
 import scala.collection.mutable.ArrayBuffer;
 object ReverseWordsInString {

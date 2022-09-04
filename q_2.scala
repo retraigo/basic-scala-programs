@@ -1,3 +1,5 @@
+// 2. Write a Scala program to remove a specific element from a given array.
+
 import scala.io.StdIn.{readLine};
 import scala.collection.mutable.ArrayBuffer;
 

@@ -1,3 +1,5 @@
+// 5. Write a Scala program to find a missing number in an array of integers.
+
 import scala.io.StdIn.{readInt};
 import scala.collection.mutable.ArrayBuffer;
 object MissingNumberInArray {

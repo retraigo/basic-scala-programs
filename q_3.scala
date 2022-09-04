@@ -1,15 +1,17 @@
-import scala.io.StdIn.{readLine};
+// 3. Write a Scala program to rotate one element left of an given array (length 1 or more) of integers
+
+import scala.io.StdIn.{readInt};
 import scala.collection.mutable.ArrayBuffer;
 
 object RotateArrayLeft {
   def main(args: Array[String]) = {
-    var listOfItems = new ArrayBuffer[String]();
+    var listOfItems = new ArrayBuffer[Int]();
     println("Enter elements to add to array. Enter 0 to stop.");
-    var current = "";
-    while (current != "0") {
+    var current = 1;
+    while (current != 0) {
       try {
-        current = readLine();
-        if(current != "0") listOfItems.append(current);
+        current = readInt();
+        if(current != 0) listOfItems.append(current);
       } catch {
         case _: Throwable => {
           println("An error occured.");
